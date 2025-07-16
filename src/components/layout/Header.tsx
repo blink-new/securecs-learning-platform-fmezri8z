@@ -15,6 +15,7 @@ export function Header({ user }: HeaderProps) {
     { name: 'Learning Paths', href: '#paths' },
     { name: 'Interactive Labs', href: '#labs' },
     { name: 'Progress', href: '#progress' },
+    { name: 'Course Library', href: '#library' },
     { name: 'Community', href: '#community' },
   ]
 

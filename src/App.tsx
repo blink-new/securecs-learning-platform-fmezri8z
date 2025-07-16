@@ -3,6 +3,9 @@ import { Header } from '@/components/layout/Header'
 import { Hero } from '@/components/sections/Hero'
 import { LearningPaths } from '@/components/sections/LearningPaths'
 import { InteractiveLabs } from '@/components/sections/InteractiveLabs'
+import { ProgressDashboard } from '@/components/sections/ProgressDashboard'
+import { CourseLibrary } from '@/components/sections/CourseLibrary'
+import { Community } from '@/components/sections/Community'
 import { blink } from '@/blink/client'
 
 function App() {
@@ -32,6 +35,9 @@ function App() {
         <Hero />
         <LearningPaths />
         <InteractiveLabs />
+        <ProgressDashboard />
+        <CourseLibrary />
+        <Community />
       </main>
       
       {/* Footer */}
